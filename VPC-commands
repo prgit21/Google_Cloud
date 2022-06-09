@@ -1,0 +1,12 @@
+Create a firewall
+
+gcloud compute firewall-rules create [yyyyyy] \
+          --allow tcp:80 \
+          --network xxxxxxx
+          
+        
+Create basic health check
+
+gcloud compute http-health-checks create http-basic-check
+
+
